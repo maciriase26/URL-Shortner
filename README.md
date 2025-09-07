@@ -10,36 +10,32 @@ A lightweight and efficient URL Shortener that converts long, cumbersome URLs in
 - Protects against invalid URLs.
 
 
-##  Table of Contents
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [API](#api) *(if applicable)*  
-- [Example](#example)  
-- [Contributing](#contributing)  
-- [License](#license)
-
-
 ##  Installation
 
 1. Clone this repository:  
    ```bash
    git clone https://github.com/maciriase26/URL-Shortner.git
    cd URL-Shortner
+### 2. Install dependencies
+Create a virtual environment and install Flask:
 
-2. Install dependencies
-    Create a virtual environment and install Flask:
-    python -m venv venv
-    # macOS/Linux
-    source venv/bin/activate
-    # Windows
-    venv\Scripts\activate
-    
-    pip install flask
-
-3. Run the app
-    python app.py
-    
-    (You should see- * Running on http://127.0.0.1:5000)
-
-4. Open in Browser or Follow Link
+   ```bash
+   python -m venv venv
    
+   # macOS/Linux
+   source venv/bin/activate
+   
+   # Windows
+   venv\Scripts\activate
+   
+   pip install flask
+```
+### 3. Run the app
+  ```bash
+   python app.py
+```
+   You should see:
+   ```bash
+Running on http://127.0.0.1:5000
+```
+### 4. Open Browser or Follow link
